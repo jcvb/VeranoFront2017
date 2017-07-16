@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html,
+body {
+  margin: 0;
+  font-family: 'Roboto', Arial, Helvetica;
+}
+
+.hero-image {
+  align-items: flex-end;
+  background: url(./image.png), white;
+  color: white;
+  display: flex;
+  height: 75vh;
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  padding-bottom: 5%;
+}
+
+.hero-image h1 {
+  font-size: 3.5em;
+  margin: 0;
+  text-shadow: 0 0 4px #000;
+}
+
+.hero-image p {
+  font-size: 1.5em;
+  text-shadow: 0 0 2px #000;
+}
